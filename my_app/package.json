@@ -1,0 +1,22 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node server.js",
+        "dev": "NODE_ENV=development node server.js",
+        "install-client": "cd client && npm install",
+        "install-next": "cd nextjs && npm install"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.1",
+        "http-proxy-middleware": "^3.0.3",
+        "next": "^15.0.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
